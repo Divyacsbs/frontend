@@ -1,0 +1,45 @@
+.stats {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-bottom: 40px;
+}
+
+.stat-card {
+  background: #1e293b;
+  padding: 20px 30px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.charts {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.chart-card {
+  background: #1e293b;
+  padding: 20px;
+  border-radius: 10px;
+  width: 350px;
+}
+
+.top-words {
+  margin-top: 40px;
+  text-align: center;
+}
+
+.top-words ul {
+  list-style: none;
+  padding: 0;
+}
+
+.top-words li {
+  background: #1e293b;
+  margin: 6px auto;
+  padding: 8px;
+  width: 220px;
+  border-radius: 6px;
+}
